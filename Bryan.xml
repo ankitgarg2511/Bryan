@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bryan.xsl"?>
+<!DOCTYPE bryan[
+  <!ELEMENT bryan (record*)>
+  <!ELEMENT record (ProductName, Price, Description)>
+  <!ELEMENT ProductName (#PCDATA)>
+  <!ELEMENT Price 	(#PCDATA)>
+  <!ELEMENT Description (#PCDATA)>
+  <!ELEMENT GIF (#PCDATA)>
+  <!ELEMENT audio (#PCDATA)>
+]>
+
+<!-- The root element should be the same as file name -->
+<bryan>
+  <record>
+    <ProductName>Beetroot and Fetta Salad</ProductName>
+    <Price>$15.00</Price>
+    <Description>Suitable for vegetarians, made with fresh Beetroot</Description>
+    <GIF>View Image</GIF>
+     <audio>Play</audio>
+  </record>
+  <record>
+   <ProductName>Sourdough Rye Sandwhich</ProductName>
+    <Price>$18.00</Price>
+    <Description>Cheese and salad sandwhich made with organic, Sourdough Rye Bread</Description>
+    <GIF>View Image</GIF>
+     <audio>Play</audio>
+  </record>
+  <record>
+   <ProductName>Spinich Pie and Sandwhich</ProductName>
+    <Price>$20.00</Price>
+    <Description>Tasty Pie with Salad</Description>
+    <GIF>View Image</GIF>
+     <audio>Play</audio>
+  </record>
+  <record>
+   <ProductName>Feta pancackes with salad</ProductName>
+    <Price>$19.50</Price>
+    <Description>Tasty pancake filled with feta and salad.</Description>
+    <GIF>View Image</GIF>
+     <audio>Play</audio>
+  </record>
+
+</bryan>
